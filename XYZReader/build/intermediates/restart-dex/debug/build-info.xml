@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="12523425899300"
+    token="-8978530536135725628" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="12512901339067"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="12523425899300" />
+    <build
+        timestamp="29273516833348"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

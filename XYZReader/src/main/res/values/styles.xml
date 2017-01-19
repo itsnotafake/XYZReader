@@ -16,13 +16,40 @@
 -->
 
 <resources>
-
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+    <!-- APP THEME STYLE -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#283593</item>
+        <item name="android:colorBackground">#7986CB</item>
+        <item name="android:colorForeground">#F9A825</item>
+        <item name="colorAccent">#EA80FC</item>
     </style>
 
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <!-- MAIN ACTIVITY Styles -->
+    <style name="AppTheme.Main" parent="@style/AppTheme"/>
+
+    <style name="AppTheme.Main.Recycler" parent="@style/AppTheme.Main">
+        <item name="android:background">?android:attr/colorBackground</item>
     </style>
 
+    <style name="Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <!-- DETAIL ACTIVITY STYLES -->
+    <style name="AppTheme.Detail" parent="AppTheme"/>
+    <style name="AppTheme.Detail.UpContainer" parent="@style/AppTheme.Detail">
+        <item name="android:background">?android:attr/colorPrimary</item>
+    </style>
+    <style name="AppTheme.Detail.Frame" parent="@style/AppTheme.Detail">
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+    <style name="AppTheme.Detail.Linear" parent="@style/AppTheme.Detail">
+        <item name="android:background">?android:attr/colorPrimary</item>
+    </style>
+    <style name="AppTheme.Detail.ArticleBody" parent="@style/AppTheme.Detail">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColorLink">@color/theme_accent</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>

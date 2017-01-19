@@ -2,4 +2,8 @@
     <declare-styleable name="DrawInsetsFrameLayout">
         <attr name="insetBackground" format="color|reference" />
     </declare-styleable>
+
+    <!--Colors -->
+    <attr name="colorBackground" format="color">#FFEB3B</attr>
+
 </resources>

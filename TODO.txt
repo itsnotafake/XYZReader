@@ -1,0 +1,9 @@
+XYZReader TODO list:
+
+-Implement exit and enter transitions for the main activity.
+
+-Fix the image size on the detail activity so it actually acts as a header.
+-Implement some sort of slider so that the meta bar pins to do the top when sliding up and matches the elevation of the little bar up there.
+-Implement enter and exit transitions for the detail activity.
+
+-Implement view sharing for the picture on the main and detail activity

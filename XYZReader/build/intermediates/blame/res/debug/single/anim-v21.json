@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim-v21\\fab_state_list_anim.xml",
+        "source": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\src\\main\\res\\anim-v21\\fab_state_list_anim.xml"
+    },
+    {
+        "merged": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    }
+]
