@@ -3117,11 +3117,8 @@ containing a value of this type.
         public static final int path_password_strike_through=0x7f08002c;
         public static final int search_menu_title=0x7f080013;
         public static final int status_bar_notification_info_overflow=0x7f080014;
-        public static final int transition_photo=0x7f08002d;
-        public static final int transition_subtitle=0x7f08002e;
-        public static final int transition_title=0x7f08002f;
-        public static final int up=0x7f080030;
-        public static final int welcome_xyz_reader=0x7f080031;
+        public static final int up=0x7f08002d;
+        public static final int welcome_xyz_reader=0x7f08002e;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0a00a4;

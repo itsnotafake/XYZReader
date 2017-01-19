@@ -8,10 +8,4 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
-
-    <!-- TRANSITION STRINGS -->
-    <string name="transition_photo">PhotoTransition</string>
-    <string name="transition_title">TitleTransition</string>
-    <string name="transition_subtitle">SubtitleTransition</string>
-
 </resources>

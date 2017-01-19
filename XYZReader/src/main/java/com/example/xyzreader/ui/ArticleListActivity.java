@@ -147,11 +147,18 @@ public class ArticleListActivity extends AppCompatActivity implements
                 @Override
                 public void onClick(View view) {
                     if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                       ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(
+                       /*ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(
                                mActivity,
                                Pair.create((View)vh.thumbnailView, vh.thumbnailView.getTransitionName()),
                                Pair.create((View)vh.titleView, vh.titleView.getTransitionName()),
-                               Pair.create((View) vh.subtitleView, vh.subtitleView.getTransitionName()));
+                               Pair.create((View) vh.subtitleView, vh.subtitleView.getTransitionName())
+                       );*/
+                        vh.thumbnailView.setTransitionName((String) vh.titleView.getText() + "_photoTransition");
+                        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(
+                                mActivity,
+                                vh.thumbnailView,
+                                vh.thumbnailView.getTransitionName()
+                        );
                         startActivity(new Intent(Intent.ACTION_VIEW,
                                 ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))),
                                 options.toBundle());

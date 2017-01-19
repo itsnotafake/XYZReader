@@ -24,7 +24,6 @@
                     android:id="@+id/photo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:transitionName="@string/transition_photo"
                      />
 
                 <View
@@ -67,16 +66,14 @@
                         android:textColor="#fff"
                         android:textStyle="bold"
                         android:textSize="@dimen/detail_title_text_size"
-                        android:lineSpacingMultiplier="0.9"
-                        android:transitionName="@string/transition_title"/>
+                        android:lineSpacingMultiplier="0.9" />
 
                     <TextView
                         android:id="@+id/article_byline"
                         style="?android:attr/textAppearanceSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#8fff"
-                        android:transitionName="@string/transition_subtitle"/>
+                        android:textColor="#8fff" />
                 </LinearLayout>
 
                 <TextView
