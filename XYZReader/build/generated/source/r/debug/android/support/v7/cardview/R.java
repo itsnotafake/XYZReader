@@ -33,7 +33,7 @@ public final class R {
 	}
 	public static final class style {
 		public static final int Base_CardView = 0x7f0a00b3;
-		public static final int CardView = 0x7f0a009f;
+		public static final int CardView = 0x7f0a00a0;
 		public static final int CardView_Dark = 0x7f0a00dd;
 		public static final int CardView_Light = 0x7f0a00de;
 	}

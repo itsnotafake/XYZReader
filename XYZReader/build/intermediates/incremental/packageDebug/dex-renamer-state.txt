@@ -1,4 +1,4 @@
-#Thu Jan 19 13:56:38 GMT-08:00 2017
+#Mon Jan 23 12:00:36 GMT-08:00 2017
 base.0=C\:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ebea06a27372c1a633954d43868df61e27f421df
 renamed.1=classes2.dex
 renamed.0=classes.dex

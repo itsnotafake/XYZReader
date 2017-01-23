@@ -48,21 +48,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c8dc3678a7f445949413e715975eac2bb92592">
-        <dex dex="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ebea06a27372c1a633954d43868df61e27f421df\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
         <dex dex="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_038bbef9236b4194c9ff46a393e865d424facd58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47943bf243b63a1fb394f5a788d02326bbb7915a">
+        <dex dex="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ebea06a27372c1a633954d43868df61e27f421df\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="753eaccf132fffe705f44fe3b28c9318c05e10b0">
+        sha1="0ffff8d33037885f022371129a6f9e974c0e56e4">
         <dex dex="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e67f636f94bb75cba8819cefbb870f3d3ce81842\classes.dex" />
     </item>
     <item

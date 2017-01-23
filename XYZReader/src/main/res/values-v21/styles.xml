@@ -15,9 +15,15 @@
 
     <!-- MAIN ACTIVITY STYLES -->
     <style name="AppTheme.Main" parent="AppTheme">
-        <item name="android:windowExitTransition">@transition/list_exit</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/explode</item>
+        <item name="android:windowEnterTransition">@transition/explode</item>
     </style>
 
     <!-- DETAIL ACTIVITY STYLES -->
+    <style name="AppTheme.Detail" parent="AppTheme">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/detail_enter</item>
+    </style>
 
 </resources>
