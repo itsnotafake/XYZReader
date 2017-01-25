@@ -60,7 +60,15 @@
                     "endOffset": 900
                 },
                 "from": {
-                    "file": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\src\\main\\res\\values-v21\\styles.xml"
+                    "file": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 87,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 643
+                    }
                 }
             },
             {
@@ -73,15 +81,7 @@
                     "endOffset": 1115
                 },
                 "from": {
-                    "file": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\src\\main\\res\\values-v21\\styles.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 1015,
-                        "endLine": 26,
-                        "endColumn": 12,
-                        "endOffset": 1228
-                    }
+                    "file": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\src\\main\\res\\values-v21\\styles.xml"
                 }
             },
             {
@@ -94,15 +94,7 @@
                     "endOffset": 1400
                 },
                 "from": {
-                    "file": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\src\\main\\res\\values-v21\\styles.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 686,
-                        "endLine": 20,
-                        "endColumn": 12,
-                        "endOffset": 970
-                    }
+                    "file": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\src\\main\\res\\values-v21\\styles.xml"
                 }
             },
             {

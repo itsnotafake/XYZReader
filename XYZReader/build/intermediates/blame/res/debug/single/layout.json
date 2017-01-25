@@ -8,6 +8,10 @@
         "source": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\holder.xml",
+        "source": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\src\\main\\res\\layout\\holder.xml"
+    },
+    {
         "merged": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\cygwin64\\home\\Devin\\github\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
