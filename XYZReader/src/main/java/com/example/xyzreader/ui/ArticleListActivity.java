@@ -15,6 +15,7 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
+import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,9 +44,12 @@ public class ArticleListActivity extends AppCompatActivity implements
 
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
+    private Toolbar mToolbar;
 
     private Bundle mTmpReenterState;
     private Boolean mIsDetailsActivityStarted;
+
+    private static final int SCROLL_DIRECTION_UP = -1;
 
     private final SharedElementCallback mCallback = new SharedElementCallback(){
         @Override
@@ -90,6 +94,21 @@ public class ArticleListActivity extends AppCompatActivity implements
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    if (dy < -60) {
+                        mToolbar.setElevation(8);
+                    } else {
+                        mToolbar.setElevation(0);
+                    }
+                }
+            }
+        });
 
         getLoaderManager().initLoader(0, null, this);
 

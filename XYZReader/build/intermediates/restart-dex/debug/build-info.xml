@@ -5,54 +5,27 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="23233665943407"
+    timestamp="8706637323716"
     token="-8978530536135725628"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="556" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="86" />
     <task
         name="verifier"
-        duration="0" />
+        duration="13" />
 
     <artifact
-        location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
+        type="MAIN" />
 
-    <build
-        timestamp="20865570713586"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="21052023918232"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="21577752594112"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
     <build
         timestamp="23233665943407"
         verifier="COMPATIBLE" >
