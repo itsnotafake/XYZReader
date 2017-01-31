@@ -5,27 +5,30 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="8706637323716"
-    token="-8978530536135725628"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="18510508289333"
+    token="-8978530536135725628" >
 
     <task
         name="javac"
-        duration="556" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="86" />
+        duration="0" />
     <task
         name="verifier"
-        duration="13" />
+        duration="0" />
 
-    <artifact
-        location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
-        type="MAIN" />
-
+    <build
+        timestamp="18322806717333"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\cygwin64\home\Devin\github\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="18510508289333" />
     <build
         timestamp="23233665943407"
         verifier="COMPATIBLE" >
