@@ -27,8 +27,8 @@
                     <ImageView
                         android:id="@+id/photo"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:scaleType="fitXY"
+                        android:layout_height="@dimen/detail_photo_height"
+                        android:scaleType="centerCrop"
                         />
 
                     <View
@@ -63,7 +63,7 @@
                             android:layout_height="wrap_content"
                             android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
                             android:fontFamily="sans-serif-condensed"
-                            android:textColor="#fff"
+                            android:textColor="@color/metabar_title"
                             android:textStyle="bold"
                             android:textSize="@dimen/detail_title_text_size"
                             android:lineSpacingMultiplier="0.9" />
