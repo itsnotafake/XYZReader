@@ -6,7 +6,7 @@
         <item name="colorPrimaryDark">#283593</item>
         <item name="android:colorBackground">#7986CB</item>
         <item name="android:colorForeground">#F9A825</item>
-        <item name="colorAccent">#FFFF00</item>
+        <item name="colorAccent">#EA80FC</item>
         <item name="android:statusBarColor">#283593</item>
         <item name="android:toolbarStyle">@style/Toolbar</item>
 
